@@ -13,7 +13,6 @@ namespace JB_EzBrowser
 {
     public partial class MainForm : Form
     {
-        //Test commit
         private ContextMenuStrip cmenustrip_tp= new ContextMenuStrip(); //for TabControl
         string [][] myFavFileList=new string [0][]; //記錄我的最愛
         public MainForm()
