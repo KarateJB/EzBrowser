@@ -17,8 +17,7 @@ namespace JB_EzBrowser
         string [][] myFavFileList=new string [0][]; //記錄我的最愛
         public MainForm()
         {
-            //Master commit
-            InitializeComponent();
+           InitializeComponent();
             this.KeyPreview = true;  //處理按鍵事件
             Show_myFavFileList(); //顯示我的最愛
 
